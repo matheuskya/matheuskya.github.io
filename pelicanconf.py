@@ -1,11 +1,14 @@
 AUTHOR = 'Matheus Kenzo'
 SITENAME = 'Matheus Kenzo'
 SITEURL = ""
+# HEADER_COVER="clean-blog/static/images/Clearday.jpg"
+
+PAGE_URL = 'pages/{slug}.html'
+PAGE_SAVE_AS = 'pages/{slug}.html'
 
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-THEME="notmyidea"
-
+THEME = "/home/matheus/projetos/personal_blog/clean-blog"
 PATH = "content"
 
 TIMEZONE = 'America/Sao_Paulo'
@@ -33,7 +36,9 @@ SOCIAL = (
     ("Linkedin", "https://www.linkedin.com/in/matheus-kenzo-614a4120b/"),
 )
 
-DEFAULT_PAGINATION = 1
+DEFAULT_PAGINATION = 0
+
+LINKEDIN_URL = "https://www.linkedin.com/in/matheus-kenzo-614a4120b/"
 
 
 # Uncomment following line if you want document-relative URLs when developing
